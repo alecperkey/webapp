@@ -2,7 +2,7 @@
 //
 // "Speed is exactly what you don’t want in a password hash function."
 
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 Promise.promisifyAll(bcrypt)
 
